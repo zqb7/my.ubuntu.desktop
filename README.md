@@ -10,11 +10,12 @@ sudo mkswap /swap.img
 sudo swapon
 ```
 ### flameshot截图
+>
 ```
 sudo apt install flameshot
 ```
+> 配置快捷键时，有bug无法截图，需要编写一个脚本使其快捷键执行该脚本,内容如下:
 ```
-配置快捷键时，有bug无法截图，需要编写一个脚本使其快捷键执行该脚本
 #!/bin/env bash
 flameshot gui
 ```
