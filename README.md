@@ -18,3 +18,11 @@ sudo apt install flameshot
 #!/bin/env bash
 flameshot gui
 ```
+### 常用桌面软件
+```
+sh -c "$(curl -fsSL install.sadeye.cn/vscode.sh)"
+sh -c "$(curl -fsSL install.sadeye.cn/sublime_text.sh)"
+sh -c "$(curl -fsSL install.sadeye.cn/dbeaver.sh)"
+sh -c "$(curl -fsSL install.sadeye.cn/redisInsight.sh)"
+sh -c "$(curl -fsSL install.sadeye.cn/hoppscotch.sh)"
+```
