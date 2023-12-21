@@ -27,3 +27,8 @@ sh -c "$(curl -fsSL install.sadeye.cn/dbeaver.sh)"
 sh -c "$(curl -fsSL install.sadeye.cn/redisInsight.sh)"
 sh -c "$(curl -fsSL install.sadeye.cn/hoppscotch.sh)"
 ```
+### VLC Player播放器
+> 这个软件要用apt安装，snap安装的软件有问题无法打开
+```
+sudo apt install vlc
+```
